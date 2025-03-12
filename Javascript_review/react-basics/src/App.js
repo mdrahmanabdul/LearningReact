@@ -1,10 +1,10 @@
 
-import {Main2 } from './Props';
+import {ParentComp } from './Props';
 
 function App() {
   return (
     <div>
-        <Main2/>
+        <ParentComp/>
     </div>
   );
 }

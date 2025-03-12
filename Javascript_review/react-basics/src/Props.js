@@ -15,22 +15,23 @@ export const Main=()=>{
     )
 }
 
-//Passing functions as props 
+
+//Passing functions as props
+
 const CustomButton=({handleClick})=>{
     return(
         <>
-            <button onClick={handleClick}>Click me</button>
+            <button onClick={handleClick}>Click me </button>
         </>
-    )
-};
+    );
+}
 
-export const Main2=()=>{
-    const showAlert=()=>{
-        alert('Button clicked !');
+export const ParentComp = () =>{
+    
+    function showAlert(){
+        alert("Button clicked !");
     }
     return(
-        <>
-            <CustomButton handleClick={showAlert}/>
-        </>
+         <CustomButton handleClick={showAlert}/>
     );
 }
