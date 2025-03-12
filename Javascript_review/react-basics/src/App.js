@@ -1,10 +1,12 @@
 
-import {ParentComp } from './Props';
+import { Customer, Groceries, RenderMobiles } from './Props';
 
 function App() {
   return (
     <div>
-        <ParentComp/>
+        <Customer/>
+        <Groceries/>
+        <RenderMobiles/>
     </div>
   );
 }
