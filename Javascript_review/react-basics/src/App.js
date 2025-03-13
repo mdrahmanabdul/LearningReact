@@ -1,4 +1,5 @@
 
+import { ConditionalRendering } from './Conditional';
 import { Customer, Groceries, RenderMobiles } from './Props';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <Customer/>
         <Groceries/>
         <RenderMobiles/>
+        <ConditionalRendering/>
     </div>
   );
 }
