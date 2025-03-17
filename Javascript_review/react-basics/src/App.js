@@ -1,25 +1,20 @@
-import { ConditionalRendering } from './Conditional';
-import ThemeProvider from './Context/ThemeProvider';
-import { Customer, Groceries, RenderMobiles } from './Props';
-import ThemedButton from './ThemedButton';
+import FormSubmission from "./EventHandling/FormSubmission";
+import OnChangeHandlerDemo from "./EventHandling/OnChangeHandlerDemo";
+import OnClickHandlerDemo from "./EventHandling/OnClickHandlerDemo";
 
 function App() {
 
   
   return (
     <div>
-        {/* <Customer/>
-        <Groceries/>
-        <RenderMobiles/>
-        <ConditionalRendering/> */}
-        <ThemeProvider>
-          <div>
-
-        <ThemedButton/>
-          </div>
-        </ThemeProvider>
+      <OnClickHandlerDemo/>
+      <OnChangeHandlerDemo/>
+      <FormSubmission/>
     </div>
   );
 }
+
+
+
 
 export default App;
